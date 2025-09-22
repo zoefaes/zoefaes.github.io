@@ -13,7 +13,7 @@
 
 		@include vendor('display', 'flex');
 		@include vendor('flex-wrap', 'wrap');
-		postiion: relative;
+		position: relative;
 		margin: ($gutter * -1) 0 0 ($gutter * -1);
 
 		article {
@@ -53,7 +53,7 @@
 					height: 100%;
 					opacity: 1.0;
 					z-index: 1;
-					opacity: 0.8;
+					opacity: 0;
 				}
 
 				&:after {
@@ -169,7 +169,7 @@
 
 						&:before {
 							background-color: _palette(bg-accent);
-							opacity: 0.35;
+							opacity: 0;
 						}
 
 						&:after {
